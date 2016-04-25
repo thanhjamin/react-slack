@@ -1,7 +1,7 @@
-var React = require('react'),
-    ReactDOM = require('react-dom');
+var React = require('react')
+var ReactDOM = require('react-dom')
 
-var Chat = React.createClass({
+var Chat = React.createClass({displayName: "Chat",
   getInitialState: function() {
     return {
       name: "anonymous",
